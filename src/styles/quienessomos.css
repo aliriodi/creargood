@@ -1,0 +1,108 @@
+@media screen and (min-width: 1024px) {
+    .corchetes-quienessomos1 {
+        background-image: url(../assets/corchetes.png);
+        background-repeat: no-repeat;
+        background-size: 100% 35%;
+        background-position-y: center;
+        max-height: 450px;
+        margin-left: 18%;
+        margin-right: 18%;
+    }
+}
+
+.quienessomos-item-title {
+    color: #F6B2BF;
+    font-family: Pacifico;
+    font-size: 71px;
+    font-weight: 400;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+.quienessomos-item-texto {
+    color: #000;
+    font-family: Barlow;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 30px;
+}
+
+@media screen and (min-width: 1024px) {
+    .corchetes-quienessomos2 {
+        background-image: url(../assets/corchetes2.png);
+        background-repeat: no-repeat;
+        background-size: 100% 50%;
+        background-position-y: center;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+.quienessomos-container {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.titulo-valores {
+    padding: 80px;
+    font-family: Pacifico;
+    font-size: 71px;
+    font-weight: 400;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #F2BD67;
+}
+
+.titulo-quienessomos {
+    font-family: Barlow;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #F2BD67;
+}
+
+
+.titulo1 {
+    font-family: Barlow;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 41px;
+    letter-spacing: 0em;
+    text-align: center;
+padding: 80px;
+}
+
+.titulo2 {
+    font-family: Barlow;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 41px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.puntos {
+    font-family: Barlow;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #F2BD67;
+    padding: 20px;
+}
+
+.row{
+    --bs-gutter-x: 0rem;
+}
