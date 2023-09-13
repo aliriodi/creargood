@@ -1,0 +1,48 @@
+.swiper-button-prev,
+.swiper-button-next {
+  background-color: #FEF5A6; /* Cambia el color de fondo */
+  color:#F6B2BF; /* Cambia el color del icono de flecha */
+  width: 40px; /* Cambia el ancho de las flechas */
+  height: 40px; /* Cambia la altura de las flechas */
+  border-radius: 50%; /* Hace que las flechas sean redondas */
+}
+
+/* Estilos para el icono de flecha izquierda (prev) */
+.swiper-button-prev::after {
+    content: ''; /* Agrega contenido vacío */
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%) rotate(-90deg); /* Rota el pseudo-elemento para que parezca una flecha */
+    width: 0; /* Ancho inicial (no visible) */
+    height: 0; /* Altura inicial (no visible) */
+    border-left: 14px solid transparent; /* Borde izquierdo transparente */
+    border-right: 14px solid transparent; /* Borde derecho transparente */
+    border-bottom: 15px solid #F6B2BF; /* Borde inferior (triángulo) */
+  }
+  
+  /* Estilos para el icono de flecha derecha (next) */
+  .swiper-button-next::after {
+    content: ''; /* Agrega contenido vacío */
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%) rotate(90deg); /* Rota el pseudo-elemento para que parezca una flecha */
+    width: 0; /* Ancho inicial (no visible) */
+    height: 0; /* Altura inicial (no visible) */
+    border-left: 14px solid transparent; /* Borde izquierdo transparente */
+    border-right: 14px solid transparent; /* Borde derecho transparente */
+    border-bottom: 15px solid #F6B2BF; /* Borde inferior (triángulo) */
+  }
+
+  .carrusel-title{
+    font-family: Barlow;
+font-size: 21px;
+font-weight: 400;
+line-height: 30px;
+color:#424242;
+margin: 20px;
+margin-left: 20%;
+margin-right: 20%;
+cursor: pointer;
+  }
